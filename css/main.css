@@ -1,0 +1,91 @@
+/*布局*/
+body {
+    background-color: darkgray;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.header {
+    height: 150px;
+    border-bottom: 1px double gray;
+}
+.main{
+    height: 1100px;
+    border-bottom: 1px solid gray;
+}
+.left{
+    width: 58%;
+    float: left;
+    border-right:1px solid gray;
+}
+.right{
+    width: 40%;
+    float: right;
+}
+
+.fl_middle{
+    margin: 0px auto;
+    text-align: center;
+}
+/*样式*/
+.head_img{
+    width: 12%;
+    height: 100px;
+    background-image: url(../img/header.jpg);
+    background-size:100%;
+    border-radius:50px;
+    position: relative;
+    top: -70px;
+    left: 44%;
+    overflow: hidden;
+}
+span{
+    color: red;
+}
+.time{
+    width: 16%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.time_item{
+    width: 5px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+}
+.content{
+    width: 80%;
+    float: left;
+    height: auto;
+    padding-left: 50px;
+}
+.content_item{
+    clear: both;
+    width: 90%;
+    height: auto;
+    background-color: gray;
+    margin: 10px;
+    padding: 1px;
+    padding-left: 10px;
+}
+.contact_item{
+    height: 50px;
+    border-bottom: 1px solid gray;
+    line-height: 50px;
+}
+.language_item{
+    height: 50px;
+    border-bottom: 1px solid gray;
+    line-height: 50px;
+}
+.bobbies_item{
+    padding: 10px;
+    background-color: darkmagenta;
+    float: left;
+    margin: 10px;
+}
